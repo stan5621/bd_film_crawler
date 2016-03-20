@@ -26,6 +26,13 @@ DOWNLOADER_MIDDLEWARES = {
 'bd_film.rotate_useragent.RotateUserAgentMiddleware':1,
 }
 
+DB_HOST = 'localhost'
+DB_USER = 'root'
+DB_PASSWD = '111111'
+DB_NAME = 'bd_film'
+DB_CHARSET = 'utf8'
+DB_PORT = 3306
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'bd_film (+http://www.yourdomain.com)'
 
